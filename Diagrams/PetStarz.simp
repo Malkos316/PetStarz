@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simp34a0ccf8a273486d91e8a81c8944c122">
+  <meta>
+    <name>PetStarz</name>
+    <authors>Markus Luthi</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>12</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>13</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-77c3509c9ba04e1585f467116e021fbb" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Markus</first-name>
+        <last-name>Luthi</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-80acd729b8a048a8a1066e0b28b635b4" />
+  <types default="Java">
+    <type-sets>
+      <type-set file="JavaTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pc7ace59c90db4665a7f9e5224f17474a_943840930" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>10/11/2023 08:13:55</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pe7c79560c85a47c383b4771b0dcb8608_809471805" name="Foster Database Class Diagram" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="803,0">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/11/2023 08:13:55</creation-date>
+          <change-date>10/11/2023 08:20:57</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="b9d1b76b142142fb848afc2ca89876c6" cid="C001" type="class" name="Breeder" creator="" creation-date="10/11/2023 08:14:58" />
+          <item id="85899e2295b041078fa9210b884e9801" cid="C004" type="class" name="Foster Center" creator="" creation-date="10/11/2023 08:16:12" />
+          <item id="ff0e911987e74c8e8b7c7b4a3cc7c034" cid="C007" type="class" name="Pet" creator="" creation-date="10/11/2023 08:19:03" />
+          <item id="4da32a1508424a279261561ad4afd155" cid="C006" type="class" name="Report" creator="" creation-date="10/11/2023 08:18:46" />
+          <item id="a1ceb5983f984f5ba9d95f58c66ba598" cid="C012" type="class" name="Insectoids" creator="" creation-date="10/11/2023 08:20:57" />
+          <item id="e2fd0dde0f604d9081589a50992e3242" cid="C003" type="class" name="Administrator" creator="" creation-date="10/11/2023 08:15:41" />
+          <item id="a198ef07d6ce413c9b033d5055a48e35" cid="C010" type="class" name="Other Mammal" creator="" creation-date="10/11/2023 08:20:19" />
+          <item id="f4a9116286c44d3682397636af9a605e" cid="C002" type="class" name="Customer" creator="" creation-date="10/11/2023 08:15:25" />
+          <item id="db07361b300b4fe19ec491a0a6918d3f" cid="C009" type="class" name="Cat" creator="" creation-date="10/11/2023 08:19:53" />
+          <item id="602af8c1a44647d0acdec2b3d1e3e846" cid="C008" type="class" name="dog" creator="" creation-date="10/11/2023 08:19:17" />
+          <item id="ae566e3590a44b799bffacac70075abb" cid="C005" type="class" name="Form" creator="" creation-date="10/11/2023 08:17:47" />
+          <item id="49c03ea31356468f94fb41336201e3c4" cid="C011" type="class" name="Aquatic Creatures" creator="" creation-date="10/11/2023 08:20:39" />
+        </abstract-items>
+        <layer id="d4c49ef094ad48909c83023e52a6286f" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b9d1b76b142142fb848afc2ca89876c6" iid="22ae752630ac427c929aa1661fd98c2c" show-fields="true" creation-date="10/11/2023 08:14:58" order-index="0" type="entity">
+            <layout ax="184" ay="87" awidth="140" aheight="160" x="184" y="87" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="f4a9116286c44d3682397636af9a605e" iid="42b0ccaa3b784d28845d76a6ec0c0911" show-fields="true" creation-date="10/11/2023 08:15:25" order-index="1" type="entity">
+            <layout ax="449" ay="87" awidth="140" aheight="160" x="449" y="87" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e2fd0dde0f604d9081589a50992e3242" iid="6e2eaf92bfd141d189a80bb400c0c853" show-fields="true" creation-date="10/11/2023 08:15:41" order-index="2" type="entity">
+            <layout ax="714" ay="87" awidth="140" aheight="160" x="709" y="84" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="85899e2295b041078fa9210b884e9801" iid="327ad5e25dc94d6dbf9c879635d1ec35" show-fields="true" creation-date="10/11/2023 08:16:12" order-index="3" type="entity">
+            <layout ax="184" ay="372" awidth="140" aheight="160" x="183" y="372" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="ae566e3590a44b799bffacac70075abb" iid="6b81952081f04a4aaa1a46cfcf237bd6" show-fields="true" creation-date="10/11/2023 08:17:47" order-index="4" type="entity">
+            <layout ax="449" ay="372" awidth="140" aheight="160" x="449" y="367" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="4da32a1508424a279261561ad4afd155" iid="b5b326540f0b4587bda1c8b013ece946" show-fields="true" creation-date="10/11/2023 08:18:46" order-index="5" type="entity">
+            <layout ax="714" ay="372" awidth="140" aheight="160" x="708" y="381" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="ff0e911987e74c8e8b7c7b4a3cc7c034" iid="3c6979c7f4ff4316937a0273d7fa8802" show-fields="true" creation-date="10/11/2023 08:19:03" order-index="6" type="entity">
+            <layout ax="979" ay="87" awidth="140" aheight="160" x="984" y="85" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="602af8c1a44647d0acdec2b3d1e3e846" iid="0e0330877ef74566a6dd096b6475c30c" show-fields="true" creation-date="10/11/2023 08:19:17" order-index="7" type="entity">
+            <layout ax="979" ay="372" awidth="140" aheight="160" x="980" y="369" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="db07361b300b4fe19ec491a0a6918d3f" iid="7d55bfb64ba54db8801864fec703104e" show-fields="true" creation-date="10/11/2023 08:19:53" order-index="8" type="entity">
+            <layout ax="1244" ay="372" awidth="140" aheight="160" x="1244" y="372" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a198ef07d6ce413c9b033d5055a48e35" iid="18e4e50d785f497ab50b1048106df422" show-fields="true" creation-date="10/11/2023 08:20:19" order-index="9" type="entity">
+            <layout ax="1509" ay="372" awidth="140" aheight="160" x="1514" y="370" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="49c03ea31356468f94fb41336201e3c4" iid="841c70d5b6cd4ac0b4c7c9419512b9d7" show-fields="true" creation-date="10/11/2023 08:20:39" order-index="10" type="entity">
+            <layout ax="1774" ay="372" awidth="140" aheight="160" x="1768" y="376" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a1ceb5983f984f5ba9d95f58c66ba598" iid="f5c2987edff0483bb98ef263086b5071" show-fields="true" creation-date="10/11/2023 08:20:57" order-index="11" type="entity">
+            <layout ax="2039" ay="372" awidth="140" aheight="160" x="2039" y="366" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
