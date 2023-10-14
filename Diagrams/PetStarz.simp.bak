@@ -23,11 +23,11 @@
       </counter>
       <counter>
         <item-type type-id="property" type="Property" />
-        <value>81</value>
+        <value>83</value>
       </counter>
       <counter>
         <item-type type-id="relationship" type="Association" />
-        <value>10</value>
+        <value>11</value>
       </counter>
       <counter>
         <item-type type-id="generalization" type="Generalization" />
@@ -40,6 +40,10 @@
       <counter>
         <item-type type-id="signal" type="Signal" />
         <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>3</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -141,8 +145,8 @@
       </style>
       <structural-feature type="String" type-id="Java.String" />
     </item>
-    <item id="77dbe87469b24359b17f203a4ca29b89" cid="PROP068" type="property" owner="17b6e03a486741e99d1e0b3a2cb485dc" creator="" creation-date="10/14/2023 11:57:51" visibility="private">
-      <structural-feature type="Foster Center" type-id="Class:85899e2295b041078fa9210b884e9801" />
+    <item id="77dbe87469b24359b17f203a4ca29b89" cid="PROP068" type="property" name="Is sheltered at" owner="17b6e03a486741e99d1e0b3a2cb485dc" creator="" creation-date="10/14/2023 11:57:51" visibility="undefined">
+      <structural-feature multiplicity="1" type="Foster Center" type-id="Class:85899e2295b041078fa9210b884e9801" />
     </item>
     <item id="5c0f6276b3f243c89f51e2925f83b457" cid="PROP045" type="property" name="spayedOrNeutered" owner="db07361b300b4fe19ec491a0a6918d3f" creator="" creation-date="10/14/2023 11:09:35" visibility="private">
       <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
@@ -244,8 +248,8 @@
       </style>
       <structural-feature type="String" type-id="Java.String" />
     </item>
-    <item id="4b9381f794804295befc7b39c218edee" cid="PROP069" type="property" owner="17b6e03a486741e99d1e0b3a2cb485dc" creator="" creation-date="10/14/2023 11:57:51" visibility="private">
-      <structural-feature type="Animal" type-id="Class:ff0e911987e74c8e8b7c7b4a3cc7c034" />
+    <item id="4b9381f794804295befc7b39c218edee" cid="PROP069" type="property" name="May have" owner="17b6e03a486741e99d1e0b3a2cb485dc" creator="" creation-date="10/14/2023 11:57:51" visibility="undefined">
+      <structural-feature multiplicity="0..*" type="Animal" type-id="Class:ff0e911987e74c8e8b7c7b4a3cc7c034" />
     </item>
     <item id="4309c5d275fe4abf8a438dbf737448f7" cid="PROP078" type="property" name="Administrator" owner="85899e2295b041078fa9210b884e9801" creator="" creation-date="10/14/2023 12:04:29" visibility="undefined">
       <structural-feature type="Administrator" type-id="Class:e2fd0dde0f604d9081589a50992e3242" />
@@ -299,6 +303,9 @@
         </alternate-styles>
       </style>
       <structural-feature type="int" type-id="Java.int" />
+    </item>
+    <item id="2f35c874a12e47bf9afacd06fd4b6601" cid="PROP082" type="property" name="May Visit" owner="4af4a2a23d2549b7a03f5a508888d6d8" creator="" creation-date="10/14/2023 12:07:55" visibility="undefined">
+      <structural-feature multiplicity="1..*" />
     </item>
     <item id="52c1caee621d46519da813cb60a1aa45" cid="PROP018" type="property" name="location" owner="85899e2295b041078fa9210b884e9801" creator="" creation-date="10/14/2023 09:59:02" visibility="private">
       <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
@@ -402,6 +409,9 @@
         </alternate-styles>
       </style>
       <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="b8c70d02715a4b0db43048bf7da315d8" cid="PROP081" type="property" name="Has" owner="4af4a2a23d2549b7a03f5a508888d6d8" creator="" creation-date="10/14/2023 12:07:55" visibility="undefined">
+      <structural-feature multiplicity="0..*" type="Customer" type-id="Class:f4a9116286c44d3682397636af9a605e" />
     </item>
     <item id="1db771bda94041bbb25e3fc03138b1de" cid="PROP042" type="property" name="breed" owner="db07361b300b4fe19ec491a0a6918d3f" creator="" creation-date="10/14/2023 11:08:56" visibility="private">
       <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
@@ -532,7 +542,7 @@
       <structural-feature type="int" type-id="Java.int" />
     </item>
     <item id="8fac59c24d884d9fa53dd64334d92af5" cid="PROP080" type="property" name="Can foster" owner="6ffee613da484c268af5596f7a9e9fb3" creator="" creation-date="10/14/2023 12:05:42" visibility="undefined">
-      <structural-feature type="Animal" type-id="Class:ff0e911987e74c8e8b7c7b4a3cc7c034" />
+      <structural-feature multiplicity="0..*" type="Animal" type-id="Class:ff0e911987e74c8e8b7c7b4a3cc7c034" />
     </item>
     <item id="b3676381cfd6414292ab7c79ea5f7eb9" cid="PROP021" type="property" name="postalCode" owner="85899e2295b041078fa9210b884e9801" creator="" creation-date="10/14/2023 09:59:22" visibility="private">
       <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
@@ -839,7 +849,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="pe7c79560c85a47c383b4771b0dcb8608_809471805" name="Foster Database Class Diagram" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="0,-81" zoom="0.7">
+      <diagram type="uml-class" id="pe7c79560c85a47c383b4771b0dcb8608_809471805" name="Foster Database Class Diagram" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="134,-382" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -851,7 +861,7 @@
           </authors>
           <description />
           <creation-date>10/11/2023 08:13:55</creation-date>
-          <change-date>10/14/2023 12:05:42</change-date>
+          <change-date>10/14/2023 12:13:51</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -897,6 +907,9 @@
           </item>
           <item id="aea9af6c3e214fdd91c2ead09bb083b1" cid="PROP026" type="property" name="phoneNum" owner="e2fd0dde0f604d9081589a50992e3242" creator="" creation-date="10/14/2023 10:40:10" visibility="private">
             <structural-feature type="int" type-id="Java.int" />
+          </item>
+          <item id="e69b8ec939734ad28aaa239fe20c70f4" cid="CMT002" type="comment" creator="" creation-date="10/14/2023 12:13:51">
+            <comment>Need to check with Alex how a form class would look and if we need to connect it anywhere.Do we generalize down into the different types of forms?</comment>
           </item>
           <item id="e2fd0dde0f604d9081589a50992e3242" cid="C003" type="class" name="Administrator" creator="" creation-date="10/11/2023 08:15:41" visibility="undefined">
             <owned-items />
@@ -994,6 +1007,16 @@
           </item>
           <item id="eabf9340d38c4c4bb86010cb74f40519" cid="PROP052" type="property" name="size" owner="a198ef07d6ce413c9b033d5055a48e35" creator="" creation-date="10/14/2023 11:15:49" visibility="private">
             <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="f69ecff9ef4f4c1483f7de5e4f0f7624" cid="CMT001" type="comment" creator="" creation-date="10/14/2023 12:13:08">
+            <comment>Still need to talk to April about how breeders fit into the big picture of fostering.</comment>
+          </item>
+          <item id="4af4a2a23d2549b7a03f5a508888d6d8" cid="REL010" type="relationship" creator="" creation-date="10/14/2023 12:07:55" from="f4a9116286c44d3682397636af9a605e" visibility="package">
+            <owned-items />
+            <relation from="f4a9116286c44d3682397636af9a605e" to="85899e2295b041078fa9210b884e9801" derived="false">
+              <start-role id="umlar-7045b653-f7f1-422c-8378-7c96e344b681" name="" navigability="" association-type="association" visibility="undefined" property-ref="b8c70d02715a4b0db43048bf7da315d8" />
+              <end-role id="umlar-c06bd3eb-47a1-4ce6-ab3f-3db69af936e7" name="" navigability="" association-type="association" visibility="undefined" property-ref="2f35c874a12e47bf9afacd06fd4b6601" />
+            </relation>
           </item>
           <item id="4da32a1508424a279261561ad4afd155" cid="C006" type="class" name="Report" creator="" creation-date="10/11/2023 08:18:46" visibility="undefined">
             <owned-items />
@@ -1146,7 +1169,7 @@
             <relation from="602af8c1a44647d0acdec2b3d1e3e846" from-iid="0e0330877ef74566a6dd096b6475c30c" to="ff0e911987e74c8e8b7c7b4a3cc7c034" to-iid="3c6979c7f4ff4316937a0273d7fa8802" />
           </item>
           <item id="17b6e03a486741e99d1e0b3a2cb485dc" iid="f6c62cb7263042f5a6ba9aa198391826" creation-date="10/14/2023 11:57:51" order-index="19" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1579" y1="-131" x2="1579" y2="19" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="86" end-local-pos="100" name-position="0,20">
+            <layout start-role-position="49,60" end-role-position="40,54" start-multiplicity-position="22,38" end-multiplicity-position="17,48" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1579" y1="-131" x2="1579" y2="19" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="86" end-local-pos="100" name-position="0,20">
               <points>
                 <point x="1579" y="-131" />
                 <point x="1579" y="19" />
@@ -1155,7 +1178,7 @@
             <relation from="85899e2295b041078fa9210b884e9801" from-iid="327ad5e25dc94d6dbf9c879635d1ec35" to="ff0e911987e74c8e8b7c7b4a3cc7c034" to-iid="3c6979c7f4ff4316937a0273d7fa8802" />
           </item>
           <item id="0396cab8f4e94d0fb8cc1790e33463de" iid="fba0894475bd4339bb88c0ccbc686207" creation-date="10/14/2023 12:00:20" order-index="20" type="relation">
-            <layout start-role-position="64,44" end-role-position="67,51" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1665" y1="-226" x2="1924" y2="-226" start-border-pos="0.37565445026178" end-border-pos="0.875" start-local-pos="96" end-local-pos="80" name-position="0,20">
+            <layout start-role-position="64,44" end-role-position="67,51" start-multiplicity-position="33,21" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1665" y1="-226" x2="1924" y2="-226" start-border-pos="0.37565445026178" end-border-pos="0.875" start-local-pos="96" end-local-pos="80" name-position="0,20">
               <points>
                 <point x="1665" y="-226" />
                 <point x="1924" y="-226" />
@@ -1164,7 +1187,7 @@
             <relation from="85899e2295b041078fa9210b884e9801" from-iid="327ad5e25dc94d6dbf9c879635d1ec35" to="4da32a1508424a279261561ad4afd155" to-iid="b5b326540f0b4587bda1c8b013ece946" />
           </item>
           <item id="7aa7b2d436cb4089aaa40563430aaf96" iid="971a9110167c4930bac66a787cc77e2f" creation-date="10/14/2023 12:02:23" order-index="21" type="relation">
-            <layout start-role-position="146,-51" end-role-position="153,-62" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2025" y1="58" x2="2025" y2="-146" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="70" end-local-pos="101.5" name-position="0,20">
+            <layout start-role-position="156,-48" end-role-position="153,-50" start-multiplicity-position="23,34" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2025" y1="58" x2="2025" y2="-146" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="70" end-local-pos="101.5" name-position="0,20">
               <points>
                 <point x="2025" y="58" />
                 <point x="2025" y="-146" />
@@ -1173,7 +1196,7 @@
             <relation from="f4a9116286c44d3682397636af9a605e" from-iid="42b0ccaa3b784d28845d76a6ec0c0911" to="4da32a1508424a279261561ad4afd155" to-iid="b5b326540f0b4587bda1c8b013ece946" />
           </item>
           <item id="e5e1f689e18a4bcca6baa64c551ec53a" iid="804e450039374c108e4ddb407328d078" creation-date="10/14/2023 12:04:13" order-index="22" type="relation">
-            <layout start-role-position="42,30" end-role-position="55,44" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1234" y1="-226" x2="1493" y2="-226" start-border-pos="0.375" end-border-pos="0.87434554973822" start-local-pos="80" end-local-pos="96" name-position="0,20">
+            <layout start-role-position="48,48" end-role-position="55,44" start-multiplicity-position="34,24" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1234" y1="-226" x2="1493" y2="-226" start-border-pos="0.375" end-border-pos="0.87434554973822" start-local-pos="80" end-local-pos="96" name-position="0,20">
               <points>
                 <point x="1234" y="-226" />
                 <point x="1493" y="-226" />
@@ -1189,6 +1212,22 @@
               </points>
             </layout>
             <relation from="f4a9116286c44d3682397636af9a605e" from-iid="42b0ccaa3b784d28845d76a6ec0c0911" to="ff0e911987e74c8e8b7c7b4a3cc7c034" to-iid="3c6979c7f4ff4316937a0273d7fa8802" />
+          </item>
+          <item id="4af4a2a23d2549b7a03f5a508888d6d8" iid="dfda9e5f0a2240b2a33e755a7b6b24a3" creation-date="10/14/2023 12:07:55" order-index="24" type="relation">
+            <layout start-role-position="55.18052,46.65655" end-role-position="25.00116,-47.77306" start-multiplicity-position="37.62452,24.51737" end-multiplicity-position="45.06683,-24.34909" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1955" y1="58" x2="1705" y2="-106" start-border-pos="0" end-border-pos="0.5" start-local-pos="0" end-local-pos="191" name-position="0,20">
+              <points>
+                <point x="1955" y="58" />
+                <point x="1665" y="-131" />
+                <point x="1705" y="-106" />
+              </points>
+            </layout>
+            <relation from="f4a9116286c44d3682397636af9a605e" from-iid="42b0ccaa3b784d28845d76a6ec0c0911" />
+          </item>
+          <item id="f69ecff9ef4f4c1483f7de5e4f0f7624" iid="74e22569fca845c3a1230487924f0d04" creation-date="10/14/2023 12:13:08" order-index="25" type="entity">
+            <layout ax="1145" ay="118" awidth="140" aheight="100" x="1145" y="118" width="140" height="100" />
+          </item>
+          <item id="e69b8ec939734ad28aaa239fe20c70f4" iid="d5b36f3703ed407daa7e2d23bdcf76be" creation-date="10/14/2023 12:13:51" order-index="26" type="entity">
+            <layout ax="527" ay="-36" awidth="299" aheight="100" x="527" y="-36" width="140" height="100" />
           </item>
         </layer>
       </diagram>

@@ -9,7 +9,7 @@
     <entity-names>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>14</value>
+        <value>15</value>
       </counter>
       <counter>
         <item-type stereotype="signal" type-id="signal" type="Signal" />
@@ -19,7 +19,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>15</value>
+        <value>16</value>
       </counter>
       <counter>
         <item-type type-id="property" type="Property" />
@@ -41,6 +41,10 @@
         <item-type type-id="signal" type="Signal" />
         <value>2</value>
       </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>3</value>
+      </counter>
     </entity-ids>
     <diagrams>
       <counter>
@@ -51,7 +55,7 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
-        <value>9</value>
+        <value>12</value>
       </counter>
     </fields>
   </counters>
@@ -218,6 +222,31 @@
         </alternate-styles>
       </style>
       <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="f6d7cd6dd8c64f05983470db756950c7" cid="PROP012" type="property" name="customerID" owner="f4a9116286c44d3682397636af9a605e" creator="" creation-date="10/14/2023 09:57:02" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="int" type-id="Java.int" />
     </item>
     <item id="7576b387a1fc4e53a0db3e2128917c40" cid="PROP044" type="property" name="color" owner="db07361b300b4fe19ec491a0a6918d3f" creator="" creation-date="10/14/2023 11:09:18" visibility="private">
       <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
@@ -845,7 +874,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="pe7c79560c85a47c383b4771b0dcb8608_809471805" name="Foster Database Class Diagram" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="134,-382" zoom="0.7">
+      <diagram type="uml-class" id="pe7c79560c85a47c383b4771b0dcb8608_809471805" name="Foster Database Class Diagram" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="134,-317" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -857,7 +886,7 @@
           </authors>
           <description />
           <creation-date>10/11/2023 08:13:55</creation-date>
-          <change-date>10/14/2023 12:09:13</change-date>
+          <change-date>10/14/2023 12:19:02</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -874,9 +903,6 @@
             <source-codes>
               <source-code language="ActionScript" />
             </source-codes>
-          </item>
-          <item id="f6d7cd6dd8c64f05983470db756950c7" cid="PROP012" type="property" name="customerID" owner="f4a9116286c44d3682397636af9a605e" creator="" creation-date="10/14/2023 09:57:02" visibility="private">
-            <structural-feature type="int" type-id="Java.int" />
           </item>
           <item id="ff0e911987e74c8e8b7c7b4a3cc7c034" cid="C007" type="class" name="Animal" creator="" creation-date="10/11/2023 08:19:03" visibility="undefined">
             <owned-items />
@@ -903,6 +929,9 @@
           </item>
           <item id="aea9af6c3e214fdd91c2ead09bb083b1" cid="PROP026" type="property" name="phoneNum" owner="e2fd0dde0f604d9081589a50992e3242" creator="" creation-date="10/14/2023 10:40:10" visibility="private">
             <structural-feature type="int" type-id="Java.int" />
+          </item>
+          <item id="e69b8ec939734ad28aaa239fe20c70f4" cid="CMT002" type="comment" creator="" creation-date="10/14/2023 12:13:51">
+            <comment>Need to check with Alex how a form class would look and if we need to connect it anywhere.Do we generalize down into the different types of forms?</comment>
           </item>
           <item id="e2fd0dde0f604d9081589a50992e3242" cid="C003" type="class" name="Administrator" creator="" creation-date="10/11/2023 08:15:41" visibility="undefined">
             <owned-items />
@@ -1001,6 +1030,9 @@
           <item id="eabf9340d38c4c4bb86010cb74f40519" cid="PROP052" type="property" name="size" owner="a198ef07d6ce413c9b033d5055a48e35" creator="" creation-date="10/14/2023 11:15:49" visibility="private">
             <structural-feature type="String" type-id="Java.String" />
           </item>
+          <item id="f69ecff9ef4f4c1483f7de5e4f0f7624" cid="CMT001" type="comment" creator="" creation-date="10/14/2023 12:13:08">
+            <comment>Still need to talk to April about how breeders fit into the big picture of fostering.</comment>
+          </item>
           <item id="4af4a2a23d2549b7a03f5a508888d6d8" cid="REL010" type="relationship" creator="" creation-date="10/14/2023 12:07:55" from="f4a9116286c44d3682397636af9a605e" visibility="package">
             <owned-items />
             <relation from="f4a9116286c44d3682397636af9a605e" to="85899e2295b041078fa9210b884e9801" derived="false">
@@ -1035,6 +1067,11 @@
               <attribute id="a81631c8e7f234a3db71eac3f61a89947573" cid="PROP010" name="phoneNum" creation-date="10/14/2023 09:55:04" property-ref="9ebe9f500a5e47249ce47fb940eaeedc" />
               <attribute id="a45ba1421b33d4a1d9ea830a47d1dd662715" cid="PROP012" name="customerID" creation-date="10/14/2023 09:57:02" property-ref="f6d7cd6dd8c64f05983470db756950c7" />
             </attributes>
+            <operations>
+              <operation id="ofded9c41c57c47a4b33c87347c61f3f8781" cid="OP009" name="fosterAnimal" creation-date="10/14/2023 12:16:40" type="" type-id="" visibility="undefined" />
+              <operation id="oc12c547b447a47cfbd5fdca0260e281c561" cid="OP010" name="submitReport" creation-date="10/14/2023 12:17:00" type="" type-id="" visibility="undefined" />
+              <operation id="o5460a3216e254e28900e465439df15a6108" cid="OP011" name="approveAnimalShowing" creation-date="10/14/2023 12:17:27" type="" type-id="" visibility="undefined" />
+            </operations>
             <source-codes>
               <source-code language="ActionScript" />
             </source-codes>
@@ -1082,12 +1119,12 @@
         </abstract-items>
         <layer id="d4c49ef094ad48909c83023e52a6286f" name="Default" visible="true" enabled="true" locked="false">
           <item id="b9d1b76b142142fb848afc2ca89876c6" iid="22ae752630ac427c929aa1661fd98c2c" show-fields="true" creation-date="10/11/2023 08:14:58" order-index="0" type="entity">
-            <layout ax="977" ay="58" awidth="168" aheight="160" x="977" y="58" width="140" height="160" />
+            <layout ax="683" ay="118" awidth="168" aheight="160" x="683" y="118" width="140" height="160" />
             <classifier />
             <class />
           </item>
           <item id="f4a9116286c44d3682397636af9a605e" iid="42b0ccaa3b784d28845d76a6ec0c0911" show-fields="true" creation-date="10/11/2023 08:15:25" order-index="1" type="entity">
-            <layout ax="1955" ay="58" awidth="140" aheight="160" x="1955" y="58" width="140" height="160" />
+            <layout ax="1955" ay="58" awidth="140" aheight="238" x="1955" y="58" width="140" height="238" rotation-center="0,-39" />
             <classifier />
             <class />
           </item>
@@ -1177,7 +1214,7 @@
             <relation from="85899e2295b041078fa9210b884e9801" from-iid="327ad5e25dc94d6dbf9c879635d1ec35" to="4da32a1508424a279261561ad4afd155" to-iid="b5b326540f0b4587bda1c8b013ece946" />
           </item>
           <item id="7aa7b2d436cb4089aaa40563430aaf96" iid="971a9110167c4930bac66a787cc77e2f" creation-date="10/14/2023 12:02:23" order-index="21" type="relation">
-            <layout start-role-position="146,-51" end-role-position="153,-50" start-multiplicity-position="23,34" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2025" y1="58" x2="2025" y2="-146" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="70" end-local-pos="101.5" name-position="0,20">
+            <layout start-role-position="156,-48" end-role-position="153,-50" start-multiplicity-position="23,34" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2025" y1="58" x2="2025" y2="-146" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="70" end-local-pos="101.5" name-position="0,20">
               <points>
                 <point x="2025" y="58" />
                 <point x="2025" y="-146" />
@@ -1195,9 +1232,9 @@
             <relation from="e2fd0dde0f604d9081589a50992e3242" from-iid="6e2eaf92bfd141d189a80bb400c0c853" to="85899e2295b041078fa9210b884e9801" to-iid="327ad5e25dc94d6dbf9c879635d1ec35" />
           </item>
           <item id="6ffee613da484c268af5596f7a9e9fb3" iid="5b9dc30a1ee144e2946be2c7984535dc" creation-date="10/14/2023 12:05:42" order-index="23" type="relation">
-            <layout start-role-position="69.88377,47.16284" end-role-position="47.7463,55.08287" start-multiplicity-position="29.87323,20.01788" end-multiplicity-position="33.95285,28.03253" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1955" y1="137" x2="1679" y2="138" start-border-pos="0.8765625" end-border-pos="0.375" start-local-pos="79" end-local-pos="119" name-position="0,20">
+            <layout start-role-position="69.88377,47.16284" end-role-position="47.7463,55.08287" start-multiplicity-position="29.87323,20.01788" end-multiplicity-position="33.95285,28.03253" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1955" y1="176" x2="1679" y2="138" start-border-pos="0.8765625" end-border-pos="0.375" start-local-pos="79" end-local-pos="119" name-position="0,20">
               <points>
-                <point x="1955" y="137" />
+                <point x="1955" y="176" />
                 <point x="1679" y="138" />
               </points>
             </layout>
@@ -1212,6 +1249,12 @@
               </points>
             </layout>
             <relation from="f4a9116286c44d3682397636af9a605e" from-iid="42b0ccaa3b784d28845d76a6ec0c0911" />
+          </item>
+          <item id="f69ecff9ef4f4c1483f7de5e4f0f7624" iid="74e22569fca845c3a1230487924f0d04" creation-date="10/14/2023 12:13:08" order-index="25" type="entity">
+            <layout ax="568" ay="257" awidth="140" aheight="100" x="568" y="257" width="140" height="100" />
+          </item>
+          <item id="e69b8ec939734ad28aaa239fe20c70f4" iid="d5b36f3703ed407daa7e2d23bdcf76be" creation-date="10/14/2023 12:13:51" order-index="26" type="entity">
+            <layout ax="527" ay="-36" awidth="299" aheight="100" x="527" y="-36" width="140" height="100" />
           </item>
         </layer>
       </diagram>
