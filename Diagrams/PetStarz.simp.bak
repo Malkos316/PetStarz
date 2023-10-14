@@ -9,13 +9,13 @@
     <entity-names>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>12</value>
+        <value>13</value>
       </counter>
     </entity-names>
     <entity-ids>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>13</value>
+        <value>14</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -28,7 +28,18 @@
   </counters>
   <alias-groups />
   <management uid="md-77c3509c9ba04e1585f467116e021fbb" name="" task-id-sequence="0">
+    <working-schedule uid="ws-77c918266d214efc9f12f3e0c0625c07" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
     <persons>
+      <person id="">
+        <first-name>Markus</first-name>
+        <last-name>Luthi</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-59c4bf02b56f4b1d9e494c2c7cf99478" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
       <person id="">
         <first-name>Markus</first-name>
         <last-name>Luthi</last-name>
@@ -47,9 +58,10 @@
     <to-dos />
   </management>
   <glossary id="glsr-80acd729b8a048a8a1066e0b28b635b4" />
-  <types default="Java">
+  <types default="UML">
     <type-sets>
       <type-set file="JavaTypes.xml" />
+      <type-set file="UmlTypes.xml" />
     </type-sets>
     <custom-types>
       <parameters />
@@ -71,7 +83,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="pe7c79560c85a47c383b4771b0dcb8608_809471805" name="Foster Database Class Diagram" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="803,0">
+      <diagram type="uml-class" id="pe7c79560c85a47c383b4771b0dcb8608_809471805" name="Foster Database Class Diagram" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="1957,0">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -83,23 +95,24 @@
           </authors>
           <description />
           <creation-date>10/11/2023 08:13:55</creation-date>
-          <change-date>10/11/2023 08:20:57</change-date>
+          <change-date>10/11/2023 13:34:29</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
-          <item id="b9d1b76b142142fb848afc2ca89876c6" cid="C001" type="class" name="Breeder" creator="" creation-date="10/11/2023 08:14:58" />
-          <item id="85899e2295b041078fa9210b884e9801" cid="C004" type="class" name="Foster Center" creator="" creation-date="10/11/2023 08:16:12" />
-          <item id="ff0e911987e74c8e8b7c7b4a3cc7c034" cid="C007" type="class" name="Pet" creator="" creation-date="10/11/2023 08:19:03" />
-          <item id="4da32a1508424a279261561ad4afd155" cid="C006" type="class" name="Report" creator="" creation-date="10/11/2023 08:18:46" />
-          <item id="a1ceb5983f984f5ba9d95f58c66ba598" cid="C012" type="class" name="Insectoids" creator="" creation-date="10/11/2023 08:20:57" />
-          <item id="e2fd0dde0f604d9081589a50992e3242" cid="C003" type="class" name="Administrator" creator="" creation-date="10/11/2023 08:15:41" />
-          <item id="a198ef07d6ce413c9b033d5055a48e35" cid="C010" type="class" name="Other Mammal" creator="" creation-date="10/11/2023 08:20:19" />
-          <item id="f4a9116286c44d3682397636af9a605e" cid="C002" type="class" name="Customer" creator="" creation-date="10/11/2023 08:15:25" />
-          <item id="db07361b300b4fe19ec491a0a6918d3f" cid="C009" type="class" name="Cat" creator="" creation-date="10/11/2023 08:19:53" />
-          <item id="602af8c1a44647d0acdec2b3d1e3e846" cid="C008" type="class" name="dog" creator="" creation-date="10/11/2023 08:19:17" />
-          <item id="ae566e3590a44b799bffacac70075abb" cid="C005" type="class" name="Form" creator="" creation-date="10/11/2023 08:17:47" />
-          <item id="49c03ea31356468f94fb41336201e3c4" cid="C011" type="class" name="Aquatic Creatures" creator="" creation-date="10/11/2023 08:20:39" />
+          <item id="afefeaa434454c7bb99e2740bcd3ffb5" cid="C013" type="class" name="Reptile" creator="" creation-date="10/11/2023 13:34:29" />
+          <item id="b9d1b76b142142fb848afc2ca89876c6" cid="C001" type="class" name="Breeder" creator="" creation-date="10/11/2023 08:14:58" visibility="undefined" />
+          <item id="85899e2295b041078fa9210b884e9801" cid="C004" type="class" name="Foster Center" creator="" creation-date="10/11/2023 08:16:12" visibility="undefined" />
+          <item id="ff0e911987e74c8e8b7c7b4a3cc7c034" cid="C007" type="class" name="Pet" creator="" creation-date="10/11/2023 08:19:03" visibility="undefined" />
+          <item id="4da32a1508424a279261561ad4afd155" cid="C006" type="class" name="Report" creator="" creation-date="10/11/2023 08:18:46" visibility="undefined" />
+          <item id="a1ceb5983f984f5ba9d95f58c66ba598" cid="C012" type="class" name="Insectoids" creator="" creation-date="10/11/2023 08:20:57" visibility="undefined" />
+          <item id="e2fd0dde0f604d9081589a50992e3242" cid="C003" type="class" name="Administrator" creator="" creation-date="10/11/2023 08:15:41" visibility="undefined" />
+          <item id="a198ef07d6ce413c9b033d5055a48e35" cid="C010" type="class" name="Other Mammal" creator="" creation-date="10/11/2023 08:20:19" visibility="undefined" />
+          <item id="f4a9116286c44d3682397636af9a605e" cid="C002" type="class" name="Customer" creator="" creation-date="10/11/2023 08:15:25" visibility="undefined" />
+          <item id="db07361b300b4fe19ec491a0a6918d3f" cid="C009" type="class" name="Cat" creator="" creation-date="10/11/2023 08:19:53" visibility="undefined" />
+          <item id="602af8c1a44647d0acdec2b3d1e3e846" cid="C008" type="class" name="dog" creator="" creation-date="10/11/2023 08:19:17" visibility="undefined" />
+          <item id="ae566e3590a44b799bffacac70075abb" cid="C005" type="class" name="Form" creator="" creation-date="10/11/2023 08:17:47" visibility="undefined" />
+          <item id="49c03ea31356468f94fb41336201e3c4" cid="C011" type="class" name="Aquatic Creatures" creator="" creation-date="10/11/2023 08:20:39" visibility="undefined" />
         </abstract-items>
         <layer id="d4c49ef094ad48909c83023e52a6286f" name="Default" visible="true" enabled="true" locked="false">
           <item id="b9d1b76b142142fb848afc2ca89876c6" iid="22ae752630ac427c929aa1661fd98c2c" show-fields="true" creation-date="10/11/2023 08:14:58" order-index="0" type="entity">
@@ -159,6 +172,11 @@
           </item>
           <item id="a1ceb5983f984f5ba9d95f58c66ba598" iid="f5c2987edff0483bb98ef263086b5071" show-fields="true" creation-date="10/11/2023 08:20:57" order-index="11" type="entity">
             <layout ax="2039" ay="372" awidth="140" aheight="160" x="2039" y="366" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="afefeaa434454c7bb99e2740bcd3ffb5" iid="0e656ccfb7a743329b221ea3d7822b73" show-fields="true" creation-date="10/11/2023 13:34:29" order-index="12" type="entity">
+            <layout ax="2304" ay="372" awidth="140" aheight="160" x="2299" y="371" width="140" height="160" />
             <classifier />
             <class />
           </item>
