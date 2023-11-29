@@ -18,7 +18,7 @@ export default function Page() {
                 <div>
                     <button className="bg-sky-800 text-white font-bold py-2 px-4 rounded m-4 p-2" onClick={handleSignOut}>Sign Out</button>
                     <p className='text-white font-bold hover:text-sky-500'>
-                        <Link href="./questionaire">Questionaire</Link>
+                        <Link href="./questionnaire">Questionnaire</Link>
                     </p>
                 </div>
                 ) : (
