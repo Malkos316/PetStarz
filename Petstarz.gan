@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="PetStarz Integrated Management System" company="" webLink="http://" view-date="2024-02-27" view-index="0" gantt-divider-location="690" resource-divider-location="300" version="3.2.3247" locale="en_CA">
+    <description>
+        <![CDATA[Project Sponsor: April Shymko, Founder and CEO of "PetStarz"]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="393" order="0"/>
+        <field id="tpd4" name="Begin date" width="148" order="1"/>
+        <field id="tpd5" name="End date" width="148" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ff3333]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="ca.alberta">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[New Year's Day]]>
+        </date>
+        <date year="" month="7" date="1" type="HOLIDAY">
+            <![CDATA[Canada Day]]>
+        </date>
+        <date year="" month="11" date="11" type="HOLIDAY">
+            <![CDATA[Remembrance Day]]>
+        </date>
+        <date year="" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Christmas]]>
+        </date>
+        <date year="2021" month="2" date="15" type="HOLIDAY">
+            <![CDATA[Family Day]]>
+        </date>
+        <date year="2021" month="4" date="2" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2021" month="5" date="24" type="HOLIDAY">
+            <![CDATA[Victoria Day]]>
+        </date>
+        <date year="2021" month="8" date="2" type="HOLIDAY">
+            <![CDATA[Heritage Day]]>
+        </date>
+        <date year="2021" month="9" date="6" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2021" month="10" date="11" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2020" month="2" date="17" type="HOLIDAY">
+            <![CDATA[Family Day]]>
+        </date>
+        <date year="2020" month="4" date="10" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2020" month="5" date="18" type="HOLIDAY">
+            <![CDATA[Victoria Day]]>
+        </date>
+        <date year="2020" month="8" date="3" type="HOLIDAY">
+            <![CDATA[Heritage Day]]>
+        </date>
+        <date year="2020" month="9" date="7" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2020" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2018" month="2" date="19" type="HOLIDAY">
+            <![CDATA[Family Day]]>
+        </date>
+        <date year="2018" month="3" date="30" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2018" month="5" date="21" type="HOLIDAY">
+            <![CDATA[Victoria Day]]>
+        </date>
+        <date year="2018" month="7" date="2" type="HOLIDAY">
+            <![CDATA[Canada Day in lieu]]>
+        </date>
+        <date year="2018" month="8" date="6" type="HOLIDAY">
+            <![CDATA[Civic Day]]>
+        </date>
+        <date year="2018" month="9" date="3" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2018" month="10" date="8" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2019" month="2" date="18" type="HOLIDAY">
+            <![CDATA[Family Day]]>
+        </date>
+        <date year="2019" month="4" date="19" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2019" month="5" date="20" type="HOLIDAY">
+            <![CDATA[Victoria Day]]>
+        </date>
+        <date year="2019" month="8" date="5" type="HOLIDAY">
+            <![CDATA[Heritage Day]]>
+        </date>
+        <date year="2019" month="9" date="2" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2019" month="10" date="14" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="1. Project Initiation" color="#8cb6ce" meeting="false" start="2024-01-15" duration="2" complete="0" thirdDate="2023-11-28" thirdDate-constraint="0" expand="true">
+            <task id="8" name="Project kickoff meeting" color="#8cb6ce" meeting="false" start="2024-01-15" duration="1" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" name="Team roles and responsibilities assignment" color="#8cb6ce" meeting="false" start="2024-01-16" duration="1" complete="0" thirdDate="2024-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="1" name="2. System Design" color="#8cb6ce" meeting="false" start="2024-01-17" duration="8" complete="0" thirdDate="2024-01-08" thirdDate-constraint="0" expand="true">
+            <task id="10" name="Finalize use case diagrams" color="#8cb6ce" meeting="false" start="2024-01-17" duration="2" complete="0" thirdDate="2024-01-09" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Create activity and state machine diagrams" color="#8cb6ce" meeting="false" start="2024-01-19" duration="3" complete="0" thirdDate="2024-01-09" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="Develop and refine system architecture" color="#8cb6ce" meeting="false" start="2024-01-24" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="28" name="*M.A - Week 2: Completion of system design" color="#ff3333" meeting="true" start="2024-01-29" duration="0" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="3. Database and Backend Development" color="#8cb6ce" meeting="false" start="2024-01-29" duration="10" complete="0" thirdDate="2023-11-28" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Database setup (MongoDB)" color="#8cb6ce" meeting="false" start="2024-01-29" duration="4" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Backend logic development (Supplier Network, Fraud Reporting, Community Engagement Features)" color="#8cb6ce" meeting="false" start="2024-02-02" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="API endpoints implementation" color="#8cb6ce" meeting="false" start="2024-02-07" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="29" name="*M.B - Week 4: Backend development milestone" color="#ff3333" meeting="true" start="2024-02-12" duration="0" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="4. Frontend Development" color="#000000" meeting="false" start="2024-01-29" duration="20" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+            <task id="16" name="UI design for Pet Search, Foster Application, Supplier Review" color="#8cb6ce" meeting="false" start="2024-01-29" duration="7" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" name="User authentication and authorization implementation" color="#8cb6ce" meeting="false" start="2024-02-07" duration="7" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="Frontend and backend integration" color="#8cb6ce" meeting="false" start="2024-02-16" duration="6" complete="0" thirdDate="2024-02-01" thirdDate-constraint="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="30" name="*M.C - Week 6: Frontend development milestone" color="#ff3333" meeting="true" start="2024-02-26" duration="0" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="5. Testing and Quality Assurance" color="#000000" meeting="false" start="2024-02-26" duration="10" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Unit testing for backend services" color="#8cb6ce" meeting="false" start="2024-02-26" duration="4" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="Integration testing for frontend and backend" color="#8cb6ce" meeting="false" start="2024-03-01" duration="3" complete="0" thirdDate="2024-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="User acceptance testing" color="#8cb6ce" meeting="false" start="2024-03-06" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="31" name="*M.D - Week 8: Testing completion" color="#ff3333" meeting="true" start="2024-03-11" duration="0" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="6. Documentation" color="#000000" meeting="false" start="2024-01-29" duration="38" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+            <task id="22" name="Start of technical documentation" color="#8cb6ce" meeting="false" start="2024-01-29" duration="20" complete="0" thirdDate="2024-01-22" thirdDate-constraint="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="Development of user manuals" color="#8cb6ce" meeting="false" start="2024-02-26" duration="10" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" name="Final project report preparation" color="#8cb6ce" meeting="false" start="2024-03-11" duration="8" complete="0" thirdDate="2024-03-04" thirdDate-constraint="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="7" name="7. Project Closure" color="#000000" meeting="false" start="2024-03-21" duration="2" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+            <task id="33" name="Final presentation preparation" meeting="false" start="2024-03-21" duration="1" complete="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" name="Project submission" meeting="false" start="2024-03-22" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="32" name="*M.E - Week 10: Final documentation and project submission" color="#ff3333" meeting="true" start="2024-03-25" duration="0" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Samantha Bogen" function="1" contacts="" phone=""/>
+        <resource id="1" name="Lisa Kamdem" function="2" contacts="" phone=""/>
+        <resource id="2" name="Dorian Laycock" function="3" contacts="" phone=""/>
+        <resource id="3" name="Markus Luthi" function="4" contacts="" phone=""/>
+        <resource id="4" name="Rolan Ho" function="5" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="4" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="5" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous>
+        <previous-tasks name="20231129">
+            <previous-task id="0" start="2024-01-15" duration="2" meeting="false" super="true"/>
+            <previous-task id="8" start="2024-01-15" duration="1" meeting="false" super="false"/>
+            <previous-task id="9" start="2024-01-16" duration="1" meeting="false" super="false"/>
+            <previous-task id="1" start="2024-01-17" duration="8" meeting="false" super="true"/>
+            <previous-task id="10" start="2024-01-17" duration="2" meeting="false" super="false"/>
+            <previous-task id="11" start="2024-01-19" duration="3" meeting="false" super="false"/>
+            <previous-task id="12" start="2024-01-24" duration="3" meeting="false" super="false"/>
+            <previous-task id="28" start="2024-01-29" duration="0" meeting="true" super="false"/>
+            <previous-task id="2" start="2024-01-29" duration="10" meeting="false" super="true"/>
+            <previous-task id="13" start="2024-01-29" duration="4" meeting="false" super="false"/>
+            <previous-task id="14" start="2024-02-02" duration="3" meeting="false" super="false"/>
+            <previous-task id="15" start="2024-02-07" duration="3" meeting="false" super="false"/>
+            <previous-task id="29" start="2024-02-12" duration="0" meeting="true" super="false"/>
+            <previous-task id="3" start="2024-01-29" duration="20" meeting="false" super="true"/>
+            <previous-task id="16" start="2024-01-29" duration="7" meeting="false" super="false"/>
+            <previous-task id="17" start="2024-02-07" duration="7" meeting="false" super="false"/>
+            <previous-task id="18" start="2024-02-16" duration="6" meeting="false" super="false"/>
+            <previous-task id="30" start="2024-02-26" duration="0" meeting="true" super="false"/>
+            <previous-task id="4" start="2024-02-26" duration="10" meeting="false" super="true"/>
+            <previous-task id="19" start="2024-02-26" duration="4" meeting="false" super="false"/>
+            <previous-task id="20" start="2024-03-01" duration="3" meeting="false" super="false"/>
+            <previous-task id="21" start="2024-03-06" duration="3" meeting="false" super="false"/>
+            <previous-task id="31" start="2024-03-11" duration="0" meeting="true" super="false"/>
+            <previous-task id="5" start="2024-01-29" duration="38" meeting="false" super="true"/>
+            <previous-task id="22" start="2024-01-29" duration="20" meeting="false" super="false"/>
+            <previous-task id="23" start="2024-02-26" duration="10" meeting="false" super="false"/>
+            <previous-task id="24" start="2024-03-11" duration="8" meeting="false" super="false"/>
+            <previous-task id="7" start="2024-03-21" duration="2" meeting="false" super="true"/>
+            <previous-task id="33" start="2024-03-21" duration="1" meeting="false" super="false"/>
+            <previous-task id="34" start="2024-03-22" duration="1" meeting="false" super="false"/>
+            <previous-task id="32" start="2024-03-25" duration="0" meeting="true" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Testing and Quality Assurance"/>
+        <role id="2" name="Backend Development, Database Management"/>
+        <role id="3" name="UI/UX Design, Frontend Development"/>
+        <role id="4" name="System Design, API Development"/>
+        <role id="5" name="Project Management, Documentation "/>
+    </roles>
+</project>
