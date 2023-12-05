@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="PetStarz Integrated Management System" company="" webLink="http://" view-date="2024-02-27" view-index="0" gantt-divider-location="690" resource-divider-location="300" version="3.2.3247" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="PetStarz Integrated Management System" company="PAWSitive PetStarz Inc." webLink="http://www.petstarz.ca" view-date="2024-01-29" view-index="0" gantt-divider-location="617" resource-divider-location="300" version="3.2.3247" locale="en_CA">
     <description>
         <![CDATA[Project Sponsor: April Shymko, Founder and CEO of "PetStarz"]]>
     </description>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="393" order="0"/>
-        <field id="tpd4" name="Begin date" width="148" order="1"/>
-        <field id="tpd5" name="End date" width="148" order="2"/>
+    <view zooming-state="default:1" id="gantt-chart">
+        <field id="tpd3" name="Name" width="342" order="0"/>
+        <field id="tpd4" name="Begin date" width="129" order="1"/>
+        <field id="tpd5" name="End date" width="130" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#ff3333]]>
@@ -13,7 +13,7 @@
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="1" name="Default role" width="87" order="1"/>
     </view>
     <!-- -->
     <calendars base-id="ca.alberta">
@@ -148,14 +148,14 @@
             </task>
         </task>
         <task id="28" name="*M.A - Week 2: Completion of system design" color="#ff3333" meeting="true" start="2024-01-29" duration="0" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true"/>
-        <task id="2" name="3. Database and Backend Development" color="#8cb6ce" meeting="false" start="2024-01-29" duration="10" complete="0" thirdDate="2023-11-28" thirdDate-constraint="0" expand="true">
-            <task id="13" name="Database setup (MongoDB)" color="#8cb6ce" meeting="false" start="2024-01-29" duration="4" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+        <task id="2" name="3. Database and Backend Development" color="#8cb6ce" meeting="false" start="2024-01-29" duration="8" complete="0" thirdDate="2023-11-28" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Database setup (MongoDB)" color="#8cb6ce" meeting="false" start="2024-01-29" duration="2" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
                 <depend id="14" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="14" name="Backend logic development (Supplier Network, Fraud Reporting, Community Engagement Features)" color="#8cb6ce" meeting="false" start="2024-02-02" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+            <task id="14" name="Backend logic development (Supplier Network, Fraud Reporting, Community Engagement Features)" color="#8cb6ce" meeting="false" start="2024-01-31" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="15" name="API endpoints implementation" color="#8cb6ce" meeting="false" start="2024-02-07" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
+            <task id="15" name="API endpoints implementation" color="#8cb6ce" meeting="false" start="2024-02-05" duration="3" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
@@ -192,14 +192,14 @@
                 <depend id="24" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="24" name="Final project report preparation" color="#8cb6ce" meeting="false" start="2024-03-11" duration="8" complete="0" thirdDate="2024-03-04" thirdDate-constraint="0" expand="true">
-                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
         <task id="7" name="7. Project Closure" color="#000000" meeting="false" start="2024-03-21" duration="2" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true">
-            <task id="33" name="Final presentation preparation" meeting="false" start="2024-03-21" duration="1" complete="0" expand="true">
-                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            <task id="34" name="Project submission" color="#8cb6ce" meeting="false" start="2024-03-21" duration="1" complete="0" thirdDate="2024-03-22" thirdDate-constraint="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="34" name="Project submission" meeting="false" start="2024-03-22" duration="1" complete="0" expand="true"/>
+            <task id="33" name="Final presentation preparation" color="#8cb6ce" meeting="false" start="2024-03-22" duration="1" complete="0" thirdDate="2024-03-21" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="32" name="*M.E - Week 10: Final documentation and project submission" color="#ff3333" meeting="true" start="2024-03-25" duration="0" complete="0" thirdDate="2024-01-05" thirdDate-constraint="0" expand="true"/>
     </tasks>
