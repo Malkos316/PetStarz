@@ -15,7 +15,6 @@ export default function Questionnaire({AddQuestionnaire}) {
     const[otherPets, setOtherPets] = useState("");
     const[otherPetsSocialized, setOtherPetsSocialized] = useState("");
 
-
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -31,7 +30,6 @@ export default function Questionnaire({AddQuestionnaire}) {
             otherPets, 
             otherPetsSocialized
         };
-
 
         //to make sure it is working
         console.log(questionnaire);
@@ -55,6 +53,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                 <div className="flex flex-col mb-10">
                     <label>Describe your home environment</label>
                     <textarea 
+                    className="text-black"
                     required
                     type="text"
                     value={homeEnvironment} 
@@ -77,6 +76,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                 <div className="flex flex-col mb-10">
                     <label>What is the approximate square footage of your home?</label>
                     <input 
+                    className="text-black"
                     required
                     type="text"
                     value={squareFootage} 
@@ -99,6 +99,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                 <div className="flex flex-col mb-10">
                     <label>Do any household members have experience with fostering?</label>
                     <textarea 
+                    className="text-black"
                     required
                     type="text"
                     value={householdExperience} 
@@ -110,6 +111,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                 <div className="flex flex-col mb-10">
                     <label>Please list all household members and their ages</label>
                     <textarea 
+                    className="text-black"
                     required
                     type="text"
                     value={householdMembersAndAge} 
@@ -121,6 +123,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                 <div className="flex flex-col mb-10">
                     <label>what age range/gender do you feel most comfortable fostering</label>
                     <textarea
+                    className="text-black"
                     required
                     type="text"
                     value={ageRangeGender}
@@ -143,6 +146,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                 <div className="flex flex-col mb-10">
                     <label>Do you have another pet in the home?</label>
                     <textarea 
+                    className="text-black"
                     required
                     type="text"
                     value={otherPets} 
@@ -154,6 +158,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                 <div className="flex flex-col mb-10">
                     <label>Have your other pets been socialized?</label>
                     <textarea 
+                    className="text-black"
                     required
                     type="text"
                     value={otherPetsSocialized} 
@@ -161,9 +166,7 @@ export default function Questionnaire({AddQuestionnaire}) {
                     style={{ width: '50%' }} 
                     />
                 </div>
-
             </form>
         </div>
     );
-
 };
