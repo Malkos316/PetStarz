@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 export default function Form(){
+
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
@@ -11,9 +12,9 @@ export default function Form(){
     const [postalCode, setPostalCode] = useState("");
     const [phone, setPhone] = useState("");
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-
+    
         const application = {
             firstName,
             lastName,
@@ -26,7 +27,22 @@ export default function Form(){
 
         //to make sure it is working
         console.log(application);
-
+    
+        // Send a POST request to the server-side function
+        const response = await fetch("http://localhost:3000/api", {  
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(application),
+        });
+    
+        if (response.ok) {
+            console.log('Data saved successfully');
+        } else {
+            console.error('Error saving data');
+        }
+    
         setFirstName("");
         setLastName("");
         setEmail("");
@@ -34,8 +50,7 @@ export default function Form(){
         setCity("");
         setPostalCode("");
         setPhone("");
-
-    };
+    };    
 
     return(
         <div className='mx-20 '>
