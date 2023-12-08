@@ -1,49 +1,36 @@
-import { MongoClient } from 'mongodb';
+import clientPromise from "app/lib/mongodb.ts"
+import { NextResponse } from "next/server";
 
+export async function POST(request) {
+ console.log("Incoming request body:", request.body);
 
-export  async function handler(req, res) {
-  try {
-    const client = await MongoClient.connect('mongodb+srv://admin:6wItA6SH7CjL4NRv@fosters.enklc0j.mongodb.net/?retryWrites=true&w=majority');
-    console.log("Connected successfully to MongoDB server");
+ // Ensure that the request method is POST
+ 
+   try {
+     // Get the username and comment from the request body
+     const data = await request.json();
 
-    const db = client.db('fosters');
+     console.log(request.body);
+     const client = await clientPromise;
 
-    // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });    
+     // Connect to the MongoDB database
+     const db = client.db("fosters");
 
-    if (req.method === 'POST') {
-      // Insert the new item into the database
-      const application = req.body;
-      const result = await db.collection('fosters').insertOne(application);
-      res.status(200).json({ status: 'success', data: result.ops[0] });
-    } else {
-      // Fetch data from the database
-      const fosters = await db.collection('fosters').find().toArray();
-      res.status(200).json({ fosters });
-    }
-
-    client.close();
-  } catch (error) {
-    console.error("An error occurred while connecting to MongoDB:", error);
-  }
-}
-
-export async function POST(req, res) {
-  try {
-    const client = await MongoClient.connect('mongodb+srv://admin:6wItA6SH7CjL4NRv@fosters.enklc0j.mongodb.net/?retryWrites=true&w=majority');
-    console.log("Connected successfully to MongoDB server");
-
-    const db = client.db('fosters');
-    
-    // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 }); 
-
-    const application = req.body;
-    const result = await db.collection('fosters').insertOne(application);
-    res.status(200).json({ status: 'success', data: result.ops[0] });
-    
-    client.close();
-  } catch (error) {
-    console.error("An error occurred while connecting to MongoDB:", error);
-  }
-}
+     // Insert the comment into the "comments" collection
+     await db.collection("fosters").insertOne({
+        firstName: data.firstName,
+        lastName: data.lastName,
+        email: data.email,
+        address: data.address,
+        city: data.city,
+        postalCode: data.postalCode,
+        phone: data.phone,
+     });
+     
+     // Respond with the inserted comment
+     return new Response(JSON.stringify(data), { status: 201 });
+   } catch (error) {
+     console.error("Error handling comment submission:", error);
+     return new NextResponse(500, { error: "Internal Server Error" });
+   }
+ } 
